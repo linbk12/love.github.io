@@ -1,0 +1,220 @@
+@charset "utf-8";
+body{
+	background-image: url(pic/bg.jpg);
+}
+
+#all {   
+	height: auto;
+	background-image: url(pic/all_bg.jpg);
+}
+nav {
+	background-color:white;
+}
+#logo{
+	background-image: url(pic/LoRmic_logo.png);
+	background-size: cover;
+}
+#main{
+	height: auto;
+}
+#silder{
+	height: auto;
+	margin-bottom: 5vh;
+}
+#product{
+	height:auto;
+
+}
+#single{
+	height:auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ball{
+	margin-bottom: 20px;
+}
+#rose{
+	height: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card-body{
+	font-size: 16px;
+}
+#share{
+	height:auto;
+    margin: auto;
+}
+#share .card-img-top{
+}
+#us{
+	height: 720px;
+}
+#about{
+	background-image: url(pic/us_1.png);
+	background-size: cover;
+}
+
+
+#google{
+	height: 400px;
+}
+#time{
+	height: 400px;
+	padding-top: 100px;
+}
+#time div{
+	line-height:50px;
+}
+footer{
+	height: 105px;
+	background-color:rgba(3, 53, 47, 0.6);
+	padding-top: 10px;
+	display: flex;
+}
+#cont{
+	text-align: start;
+	line-height: 30px;
+	justify-content: space-around;
+}
+
+
+#navbarNav a{
+	color: black;
+}
+#navbarNav a:hover{
+	color:gray;
+	border: 1px solid navy;
+}
+#map{
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) { 
+	#all {
+		width: 100vw;
+		margin: auto;
+	}
+	#logo{
+		width:98px ;
+		height: 50px;
+	}
+	nav {
+		height: 70px;
+		
+	}
+	.navbar-expand-lg {
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+    }
+    .navbar-brand{
+        margin-left: auto;
+        margin-right: auto;
+	}
+
+	#navbarNav{
+		background-color:#84ccc7;
+	}
+	.card-img-overlay{
+		display: none;
+}
+   
+#about{
+	height: 720px;
+	width: 100vw;
+	background-size:100% 700px;
+	background-repeat:no-repeat;
+}
+iframe{
+	width: 370px;
+	height: 350px;
+}
+#google{
+	padding: 0;
+}
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px)  { 
+	#all {
+		width: 90%;
+		margin: auto;
+	}
+	nav {
+		height: 80px;
+	
+	}
+	#logo{
+		width:147px ;
+		height: 75px;
+		margin-right: 40vw;
+	}
+	#navbarNav{
+		font-size: 16px;
+		font-weight: bolder;
+		}
+	#map{
+
+		padding:50px;
+	}
+	#about{
+		height: 720px;
+		width: 50vw;
+	}
+	.card-img-overlay{
+			height: 240px;
+			width: 240px;
+			position: relative;
+			background-color: rgba(3, 53, 47, 0.5);
+			-webkit-transition:width 2s;
+			-webkit-transition-timing-function:linear;
+	}
+	.card-img-overlay:hover{
+			background-color: rgba(10, 10, 10, 0);
+	}
+	iframe{
+		width: 533px;
+		height: 400px;
+	}
+}
